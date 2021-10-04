@@ -6,12 +6,19 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestCalc
 {
-//    App app=new App();
 @Test
-    public void testApp()
+    public void testAdd()
     {
         assertEquals(Calc.add(3,5),8);
-        assertEquals(Calc.add(2223,1005),3228);
+    }
+
+@Test
+    public void testSubtract()
+    {
+        assertEquals(Calc.subtract(5,3),2);
+        
     }
 }
+
+
 
